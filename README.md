@@ -3,15 +3,17 @@ Created using `react-create-app`.
 
 Responsive web app that returns possible molecular structures for an input molecular formula.
 
-## Packages used
+## [Use the app]()
+
+## Dependencies
 
 - `react-mf`: To have formatted molecular formula
 - `react-ocl`: To draw molecular structures from `idCode`
 - `openchemlib`: Dependency of `react-ocl` which has to be installed by hand
 
-## BUilding the project with relative paths
+## Building the project with relative paths
 
-For the project build to work, you have to add this line as the first level of `package.json`:
+For the project build to work when it is launched from Live Server, you have to add this line at the first level of `package.json`:
 
 ```json
   "homepage": "./",
