@@ -1,5 +1,3 @@
-// function-based component! (vs class-based components)
-
 import React from 'react';
 
 export default function Header() {
