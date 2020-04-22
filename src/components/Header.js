@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <header style={headerStyle}>
       <h1>Molecular structures calculator</h1>
-      <Link style={linkStyle} to="/">
+      <Link style={linkStyle} to="/react-mol-structures">
         Home
       </Link>{' '}
       |{' '}
-      <Link style={linkStyle} to="/about">
+      <Link style={linkStyle} to="/react-mol-structures/about">
         About
       </Link>
     </header>

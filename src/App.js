@@ -31,7 +31,7 @@ export default function App() {
         <Header />
         <Route
           exact
-          path="/"
+          path="/react-mol-structures"
           render={() => (
             <React.Fragment>
               <Input setMF={setMF} />
@@ -40,7 +40,7 @@ export default function App() {
             </React.Fragment>
           )}
         />
-        <Route path="/about" component={About} />
+        <Route path="/react-mol-structures/about" component={About} />
       </div>
     </Router>
   );
