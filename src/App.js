@@ -1,25 +1,26 @@
 import React, { useState, useEffect } from 'react';
 
+import Content from './components/Content';
 import Header from './components/Header';
 import Input from './components/Input';
-import Molecules from './components/Molecules';
 import ShowMF from './components/ShowMF';
 import './App.css';
 import getIdCodes from './components/getIdCodes';
 
 export default function App() {
   const [mf, setMF] = useState('');
-  const [mfValid, setMfValid] = useState(true);
+  const [content, setContent] = useState('molecules');
   const [idCodes, setIdCodes] = useState([]);
 
   useEffect(() => {
     if (mf) {
-      setMfValid(true);
-      getIdCodes(mf, setMfValid)
+      setContent('loading');
+      getIdCodes(mf, setContent)
         .then((results) => {
           setIdCodes(results);
+          setContent('molecules');
         })
-        .catch(() => setMfValid(false));
+        .catch(() => setContent('error'));
     }
   }, [mf]); // the callback is executed only if mf changes
   return (
@@ -27,19 +28,7 @@ export default function App() {
       <Header />
       <Input setMF={setMF} />
       <ShowMF mf={mf} />
-      {mfValid ? (
-        <Molecules idCodes={idCodes} />
-      ) : (
-        <p style={errorStyle}>ERROR: Invalid molecular formula</p>
-      )}
+      <Content content={content} idCodes={idCodes} />
     </div>
   );
 }
-
-const errorStyle = {
-  color: 'red',
-  fontSize: '20px',
-  textAlign: 'center',
-  padding: '10px',
-  fontWeight: 'bold',
-};
