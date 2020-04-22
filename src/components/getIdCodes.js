@@ -10,5 +10,6 @@ export default async function getIdCodes(mf, options = {}) {
     },
   );
   const results = await response.json();
+
   return results.slice(0, maxResults);
 }
