@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 360 360" version="1.0" inkscape:version="0.91 r13725">
+  <g id="layer1">
+    <path id="path3346" style="fill-rule:evenodd;fill:#ff0000" d="m6.9767 178.6l86.602-150 86.601 150h-173.2z"/>
+    <path id="path3348" style="fill-rule:evenodd;fill:#0000ff" d="m93.579 328.6l86.601-150 86.6 150h-173.2z"/>
+    <path id="path3350" style="fill-rule:evenodd;fill:#00ff00" d="m180.18 178.6l86.6-150 86.61 150h-173.21z"/>
+    <path id="path3352" style="fill-rule:evenodd;fill:#ff00ff" d="m6.9767 178.6l86.602 150 86.601-150h-173.2z"/>
+    <path id="path3354" style="fill-rule:evenodd;fill:#ffff00" d="m93.579 28.605l86.601 150 86.6-150-173.2 0.005z"/>
+    <path id="path3356" style="fill-rule:evenodd;fill:#00ffff" d="m180.18 178.6l86.6 150 86.61-150h-173.21z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>hexagon 6 color</dc:title>
+        <dc:date>2011-01-05T21:43:09</dc:date>
+        <dc:description>The most colorful way to prove that a hexagon is six triangles!</dc:description>
+        <dc:source>https://openclipart.org/detail/103795/hexagon-6-color-by-10binary</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>10binary</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>color</rdf:li>
+            <rdf:li>hexagon</rdf:li>
+            <rdf:li>triangle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
