@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import About from './components/About';
 import Content from './components/Content';
 import Header from './components/Header';
 import Input from './components/Input';
@@ -24,11 +26,22 @@ export default function App() {
     }
   }, [mf]); // the callback is executed only if mf changes
   return (
-    <div className="App">
-      <Header />
-      <Input setMF={setMF} />
-      <ShowMF mf={mf} />
-      <Content content={content} idCodes={idCodes} />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Route
+          exact
+          path="/"
+          render={() => (
+            <React.Fragment>
+              <Input setMF={setMF} />
+              <ShowMF mf={mf} />
+              <Content content={content} idCodes={idCodes} />
+            </React.Fragment>
+          )}
+        />
+        <Route path="/about" component={About} />
+      </div>
+    </Router>
   );
 }
