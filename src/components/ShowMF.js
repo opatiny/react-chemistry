@@ -7,7 +7,7 @@ export default function ShowMF(props) {
       <style>
         {`.mfTxtStyle {
                 font-weight: bold;
-                font-size: 20;
+                font-size: 20px;
               }`}
       </style>
 
@@ -18,7 +18,7 @@ export default function ShowMF(props) {
 
 const mfStyle = {
   background: '#f4f4f4',
-  padding: '20px',
+  padding: '10px',
   borderBottom: '1px solid #ccc ',
   textAlign: 'center',
 };
