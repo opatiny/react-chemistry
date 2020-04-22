@@ -18,3 +18,7 @@ For the project build to work when it is launched from Live Server, you have to 
 ```json
   "homepage": "./",
 ```
+
+## GitHub workflows
+
+We use github workflows to publish the app on github pages.
