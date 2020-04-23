@@ -22,7 +22,7 @@ export default function Input(props) {
         type="text"
         name="input"
         style={{ flex: '10', padding: '5px' }}
-        placeholder="Enter a simple molecular formula ..."
+        placeholder="Enter a simple organic molecular formula ..."
         value={state.input}
         onChange={handleNewEntry}
       />

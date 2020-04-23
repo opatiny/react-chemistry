@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header style={headerStyle}>
-      <h1>Molecular structures calculator</h1>
+      <h1>Structural isomers calculator</h1>
       <Link style={linkStyle} to="/react-mol-structures">
         Home
       </Link>{' '}

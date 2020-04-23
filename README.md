@@ -1,7 +1,7 @@
 # `react-mol-structures`
 Created using `react-create-app`.
 
-Responsive web app that returns possible molecular structures for an input molecular formula.
+Responsive web app that returns possible structures isomers for an organic molecule.
 
 ## [Use the app](https://opatiny.github.io/react-mol-structures/)
 
